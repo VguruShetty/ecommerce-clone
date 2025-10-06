@@ -1,0 +1,588 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+    background-color: #131921;
+    color: white;
+}
+.nav-logo{
+    height: 50px;
+    width: 130px;
+
+}
+.logo{
+    background-image: url(Image/Amazon_Logo.png);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+.border{
+    border: 1.5px solid transparent;    
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.address-first{
+    color: #CCCCCC;
+    font-size: 0.85rem;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+.address-second{
+    font-size: 1rem;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-address{
+    height: 50px;
+    align-items: center;
+    text-align: center;
+}
+.nav-search{
+    display: flex;
+    width: 620px;
+    height: 40px;
+    border-radius: 6px;
+    justify-content: space-evenly;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.seach-icon{
+    background-color: #febd68;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.lag-icon{
+    background-image: url(Image/flag.png);
+    height: 20px;
+    width: 28px;
+    background-size: cover;
+}
+.nav-lag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+.lag-select{
+    background-color: transparent;
+    color: white;
+    height: 17px;
+    border: none;
+}
+span{
+    font-size: 0.7rem;
+    margin-left: 10px;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-signin{
+    height: 50px;    
+    text-align: center;
+}
+.nav-signin, p{
+    margin-top: 5px ;
+    margin-right: 5px ;
+}
+.nav-returns{
+    height: 50px;    
+    text-align: center;
+}
+.nav-returns, p{
+    margin-top: 5px ;
+    margin-right: 5px ;
+}
+.nav-cart{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.nav-cart i{
+    font-size: 30px;
+    font-weight: 700;
+}
+.pannel{
+    background-color: #232F3E;
+    height: 40px;
+    color: #ffffff;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.pannel-content{
+    margin-left: 10px;
+    height: 40px;
+}
+.pannel-content p{
+    margin-top: 12px;
+    font-size: 0.9rem;
+}
+.pannel-left{
+    display: flex;
+    height: 40px;
+}
+.pannel-left p, i{
+    margin-top: 12px;
+}
+.hero-section{
+    background-image: url(Image/Background_Image.jpg);
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;    
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.hero-msg a{
+    color: #007185;
+}
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p,a{
+    color: #007185;
+}
+.image3{
+    background-image: url(Image/i3.jpg);
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-position: center;
+}
+.image4{
+    background-image: url(Image/i4.jpg);
+    background-size: cover;
+    height: 300px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-position: center;
+}
+.image1_1{
+    background-image: url(Image/i1-1.jpg);
+    height: 125px;
+    width: 130px;
+    background-size: cover;
+    margin-right: 1rem;
+    background-position: center; 
+}
+.image1_2{
+    background-image: url(Image/i1-2.jpg);
+    height: 125px;
+    width: 130px;
+    background-size: cover;
+    background-position: center; 
+}
+.image1_3{
+    background-image: url(Image/i1-3.jpg);
+    height: 125px;
+    width: 130px;
+    background-size: cover;
+    margin-right: 1rem;
+    background-position: center; 
+}
+.image1_4{
+    background-image: url(Image/i1-4.jpg);
+    height: 125px;
+    width: 130px;
+    background-size: cover;
+    background-position: center; 
+}
+.box-collection1{
+    display: flex;
+    margin-top: 1rem;
+}
+.box-collection2{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content-label{
+    font-size: 0.8rem;
+    line-height: 1rem;
+}
+.image2_1{
+    background-image: url(Image/i2-1.jpg);
+    height: 110px;
+    width: 130px;
+    background-size: cover;
+    margin-right: 1rem;
+    background-position: center; 
+}
+.image2_2{
+    background-image: url(Image/i2-2.jpg);
+    height: 110px;
+    width: 130px;
+    background-size: cover;
+    background-position: center; 
+}
+.image2_3{
+    background-image: url(Image/i2-3.jpg);
+    height: 110px;
+    width: 130px;
+    background-size: cover;
+    margin-right: 1rem;
+    background-position: center; 
+}
+.image2_4{
+    background-image: url(Image/i2-4.jpg);
+    height: 110px;
+    width: 130px;
+    background-size: cover;
+    background-position: center; 
+}
+.image5_1{
+    background-image: url(Image/i5-1.jpg);
+    height: 110px;
+    width: 130px;
+    background-size: cover;
+    margin-right: 1rem;
+    background-position: center; 
+}
+.image5_2{
+    background-image: url(Image/i5-2.jpg);
+    height: 110px;
+    width: 130px;
+    background-size: cover;
+    background-position: center; 
+}
+.image5_3{
+    background-image: url(Image/i5-3.jpg);
+    height: 110px;
+    width: 130px;
+    background-size: cover;
+    margin-right: 1rem;
+    background-position: center; 
+}
+.image5_4{
+    background-image: url(Image/i5-4.jpg);
+    height: 110px;
+    width: 130px;
+    background-size: cover;
+    background-position: center; 
+}
+.image6_1{
+    background-image: url(Image/i6-1.jpg);
+    height: 125px;
+    width: 130px;
+    background-size: cover;
+    margin-right: 1rem;
+    background-position: center; 
+}
+.image6_2{
+    background-image: url(Image/i6-2.jpg);
+    height: 125px;
+    width: 130px;
+    background-size: cover;
+    background-position: center; 
+}
+.image6_3{
+    background-image: url(Image/i6-3.jpg);
+    height: 125px;
+    width: 130px;
+    background-size: cover;
+    margin-right: 1rem;
+    background-position: center; 
+}
+.image6_4{
+    background-image: url(Image/i6-4.jpg);
+    height: 125px;
+    width: 130px;
+    background-size: cover;
+    background-position: center; 
+}
+.image7_1{
+    background-image: url(Image/i7-1.jpg);
+    height: 125px;
+    width: 130px;
+    background-size: cover;
+    margin-right: 1rem;
+    background-position: center; 
+}
+.image7_2{
+    background-image: url(Image/i7-2.jpg);
+    height: 125px;
+    width: 130px;
+    background-size: cover;
+    background-position: center; 
+}
+.image7_3{
+    background-image: url(Image/i7-3.jpg);
+    height: 125px;
+    width: 130px;
+    background-size: cover;
+    margin-right: 1rem;
+    background-position: center; 
+}
+.image7_4{
+    background-image: url(Image/i7-4.jpg);
+    height: 125px;
+    width: 130px;
+    background-size: cover;
+    background-position: center; 
+}
+.image8_1{
+    background-image: url(Image/i8-1.jpg);
+    height: 110px;
+    width: 130px;
+    background-size: cover;
+    margin-right: 1rem;
+    background-position: center; 
+}
+.image8_2{
+    background-image: url(Image/i8-2.jpg);
+    height: 110px;
+    width: 130px;
+    background-size: cover;
+    background-position: center; 
+}
+.image8_3{
+    background-image: url(Image/i8-3.jpg);
+    height: 110px;
+    width: 130px;
+    background-size: cover;
+    margin-right: 1rem;
+    background-position: center; 
+}
+.image8_4{
+    background-image: url(Image/i8-4.jpg);
+    height: 110px;
+    width: 130px;
+    background-size: cover;
+    background-position: center; 
+}
+.image9_1{
+    background-image: url(Image/i9-1.jpg);
+    height: 125px;
+    width: 130px;
+    background-size: cover;
+    margin-right: 1rem;
+    background-position: center; 
+}
+.image9_2{
+    background-image: url(Image/i9-2.jpg);
+    height: 125px;
+    width: 130px;
+    background-size: cover;
+    background-position: center; 
+}
+.image9_3{
+    background-image: url(Image/i9-3.jpg);
+    height: 125px;
+    width: 130px;
+    background-size: cover;
+    margin-right: 1rem;
+    background-position: center; 
+}
+.image9_4{
+    background-image: url(Image/i9-4.jpg);
+    height: 125px;
+    width: 130px;
+    background-size: cover;
+    background-position: center; 
+}
+.image10_1{
+    background-image: url(Image/i10-1.jpg);
+    height: 125px;
+    width: 130px;
+    background-size: cover;
+    margin-right: 1rem;
+    background-position: center; 
+}
+.image10_2{
+    background-image: url(Image/i10-2.jpg);
+    height: 125px;
+    width: 130px;
+    background-size: cover;
+    background-position: center; 
+}
+.image10_3{
+    background-image: url(Image/i10-3.jpg);
+    height: 125px;
+    width: 130px;
+    background-size: cover;
+    margin-right: 1rem;
+    background-position: center; 
+}
+.image10_4{
+    background-image: url(Image/i10-4.jpg);
+    height: 125px;
+    width: 130px;
+    background-size: cover;
+    background-position: center; 
+}
+.image11_1{
+    background-image: url(Image/i11-1.jpg);
+    height: 125px;
+    width: 130px;
+    background-size: cover;
+    margin-right: 1rem;
+    background-position: center; 
+}
+.image11_2{
+    background-image: url(Image/i11-2.jpg);
+    height: 125px;
+    width: 130px;
+    background-size: cover;
+    background-position: center; 
+}
+.image11_3{
+    background-image: url(Image/i11-3.jpg);
+    height: 125px;
+    width: 130px;
+    background-size: cover;
+    margin-right: 1rem;
+    background-position: center; 
+}
+.image11_4{
+    background-image: url(Image/i11-4.jpg);
+    height: 125px;
+    width: 130px;
+    background-size: cover;
+    background-position: center; 
+}
+.image12_1{
+    background-image: url(Image/i12-1.jpg);
+    height: 125px;
+    width: 130px;
+    background-size: cover;
+    margin-right: 1rem;
+    background-position: center; 
+}
+.image12_2{
+    background-image: url(Image/i12-2.jpg);
+    height: 125px;
+    width: 130px;
+    background-size: cover;
+    background-position: center; 
+}
+.image12_3{
+    background-image: url(Image/i12-3.jpg);
+    height: 125px;
+    width: 130px;
+    background-size: cover;
+    margin-right: 1rem;
+    background-position: center; 
+}
+.image12_4{
+    background-image: url(Image/i12-4.jpg);
+    height: 125px;
+    width: 130px;
+    background-size: cover;
+    background-position: center; 
+}
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #485769;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel2{
+    background-color: #232F3E;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+ul a{
+    display: flex;
+    color:#dddddd;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+ul p{
+    font-weight: 700;
+}
+ul{
+    margin-top: 20px;
+}
+.foot-panel3{
+    border-top: 0.5px solid white;
+    background-color: #232F3E;
+    color: white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-logo{
+    width: 130px;
+}
+.logo{
+    background-image: url(Image/footer_logo.png);
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+}
+.foot-panel4{
+    background-color: #0F1111;
+    color: white;
+    height: 80px;
+    text-align: center;
+    font-size: 0.7rem;
+}
+.pages{    
+    padding-top: 20px;
+}
+.copyright{
+    padding-top: 5px;   
+}
