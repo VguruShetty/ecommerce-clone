@@ -43,4 +43,4 @@ Open the index.html file in your browser.
 
 Add JavaScript for interactivity
 
-Make it fully responsive for all devices
+Make it fully responsive for all devices.
