@@ -7,7 +7,7 @@ It replicates the design of Amazon’s homepage and basic layout.
 
 Responsive design.
 
-Amazon-like navigation bar
+Amazon-like navigation bar.
 
 Product sections layout
 
