@@ -5,7 +5,7 @@ It replicates the design of Amazon’s homepage and basic layout.
 
 🚀 Features
 
-Responsive design
+Responsive design.
 
 Amazon-like navigation bar
 
